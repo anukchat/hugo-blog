@@ -40,7 +40,7 @@ editPost:
 
 So, In case of **Supervised Learning ,**  how an algorithm learns by itself ? To understand it , lets first understand difference between Rule based and Data based algorithms.
 
-![ML vs Traditional Programming](images/ml-vs-tp.png)
+![ML vs Traditional Programming](images/1_ml-vs-tp.png)
 
 **Traditional Programming** paradigm focusses more on creating task specific algorithms, by coding a rule engine. The best example is *if-else  *****statements in a program:
 
@@ -73,7 +73,7 @@ I have a thermometer which can display temperatures in degree Celsius as well as
 
 1. *Traditional programming way:*   By using the Celsius to Fahrenheit conversion formula as mentioned:
 
-![ML vs Traditional Programming](images/celsius.png)
+![ML vs Traditional Programming](images/1_celsius.png)
 
 1. *Machine learning way:*   Assuming data from the thermometer is being collected, we have data in Celsius and Fahrenheit both before malfunctioning of the meter. And after that, we only have data in Celsius.
 
@@ -143,7 +143,7 @@ Before we start training ML model, we need to do some exploratory data analysis 
 4. **Loss**
 Machine Learning model training is an iterative process, which means we attach inputs to hypothesis and calculate the output and then calculate the difference between the actual output (***y_pred - y_actual***). The goal of the training process is to make this loss as low as possible so that the model’s output matches with the actual training data target values. To achieve that we define different loss functions (Ex: RMSE (Root Mean Square Error) )
 
-![ML vs Traditional Programming](images/rmse.png)
+![ML vs Traditional Programming](images/1_rmse.png)
 
 1. **Training**
 Now, based on the input data, hypothesis, and loss functions, training process starts, which is an iterative process (Repeat the process of updating the weights (w0,w1,w2….) until the loss value reaches minimum). At the end of training, we get values of weights , which can then be attached to our hypothesis to get our final model.
